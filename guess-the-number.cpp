@@ -19,12 +19,12 @@ int main() {
 
         if (random == temp) {
             printf("Correct");
-            break
+            break;
         }
-        else if (random > temp >= random - 5 or random < temp <= random - 5)
+        else if (random > temp >= random - 5 || random < temp <= random - 5)
             printf("The number you guessed is very close to the sail number.");
 
-        else if (random > temp >= random - 10 or random < temp <= random - 10)
+        else if (random > temp >= random - 10 || random < temp <= random - 10)
             printf("The number you guessed is close to the sail number");
         else
             printf("The number you guessed is far from the sail number");
